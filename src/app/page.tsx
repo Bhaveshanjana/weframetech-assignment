@@ -4,6 +4,7 @@ import React from "react";
 import Navbar from "@/components/Navbar";
 import Account from "@/components/Account";
 import Franchisees from "@/components/Franchisees";
+import Highlight from "@/components/Highlight";
 
 export default function Home() {
   return (
@@ -18,6 +19,8 @@ export default function Home() {
 
           {/* Franchisees section */}
           <Franchisees />
+          {/* Hilight section */}
+          <Highlight />
         </div>
       </main>
     </div>
