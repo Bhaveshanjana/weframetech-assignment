@@ -3,6 +3,7 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Account from "@/components/Account";
+import Franchisees from "@/components/Franchisees";
 
 export default function Home() {
   return (
@@ -14,6 +15,9 @@ export default function Home() {
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
           {/* Account Progress section */}
           <Account />
+
+          {/* Franchisees section */}
+          <Franchisees />
         </div>
       </main>
     </div>
