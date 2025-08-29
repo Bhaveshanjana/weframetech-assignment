@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Account from "@/components/Account";
 import Franchisees from "@/components/Franchisees";
 import Highlight from "@/components/Highlight";
+import DocumentUploads from "@/components/DocumentUploads";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
           <Highlight />
         </div>
       </main>
+      <DocumentUploads />
     </div>
   );
 }
