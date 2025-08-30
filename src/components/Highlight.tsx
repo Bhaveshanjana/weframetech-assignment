@@ -32,7 +32,7 @@ const Highlight = () => {
               <span className="text-sm font-semibold">Feedback</span>
             </div>
             <div className="flex justify-center items-center  gap-2">
-              <div className="h-3 w-3 -translate-y-2 rounded-full border border-slate-300 bg-[#D9D9D9]" />
+              <div className="h-2 w-2 -translate-y-2 rounded-full border border-slate-300 bg-[#D9D9D9]" />
               <span className="text-[#455468] font-semibold text-[12px]">
                 Franchisees are requesting more detailed training materials.
               </span>
